@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="zdw-customer-son" />
+        <module name="zdw-provider-man" />
+        <module name="zdw-api" />
+        <module name="zdw-provider-women" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="doubbo" target="1.8" />
+      <module name="zdw-api" target="1.8" />
+      <module name="zdw-customer-son" target="1.8" />
+      <module name="zdw-provider-man" target="1.8" />
+      <module name="zdw-provider-women" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="zdw-api" options="-parameters" />
+      <module name="zdw-customer-son" options="-parameters" />
+      <module name="zdw-provider-man" options="-parameters" />
+      <module name="zdw-provider-women" options="-parameters" />
+    </option>
+  </component>
+</project>
